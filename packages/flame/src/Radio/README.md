@@ -151,7 +151,7 @@ import { BaseRadio, RadioLabel } from '@lightspeed/flame/Radio';
 
 const MyComponent = () => (
   <RadioLabel description="This description will be properly aligned">
-    <Radio id="feature-id" name="feature" />
+    <BaseRadio id="feature-id" name="feature" />
     My Label
   </RadioLabel>
 );
